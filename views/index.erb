@@ -1,0 +1,10 @@
+<img src="https://codeclan.com/wp-content/uploads/2019/04/cropped-CodeClan-Logo-White-2019-01-1.png" width="650" height="200" alt="codeclan logo">
+<h1>Today at the CodeClan Cinema:</h1>
+
+<ul>
+     <% film_count = 1 %>
+     <% for movie in @list_of_movies %>
+<li> <a href=<%="films/#{movie.id}"%>><%= movie.title %></a> </li>
+      <% film_count += 1 %>
+     <% end %>
+</ul>
