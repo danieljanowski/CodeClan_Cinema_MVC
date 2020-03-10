@@ -2,9 +2,7 @@
 <h1>Today at the CodeClan Cinema:</h1>
 
 <ul>
-     <% film_count = 1 %>
      <% for movie in @list_of_movies %>
 <li> <a href=<%="films/#{movie.id}"%>><%= movie.title %></a> </li>
-      <% film_count += 1 %>
      <% end %>
 </ul>

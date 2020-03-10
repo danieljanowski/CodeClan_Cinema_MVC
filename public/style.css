@@ -5,3 +5,5 @@ body {
   background-color: #49b5e3;
   font-size: 2em;
 }
+
+ul {list-style-type: none;}
